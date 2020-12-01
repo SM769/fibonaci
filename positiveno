@@ -1,0 +1,8 @@
+l=[]
+for _ in range(0,5):
+    x=int(input())
+    l.append(x)
+for i in l:
+    if i<0:
+        l.remove(i)
+print(l)
